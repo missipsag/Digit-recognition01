@@ -87,6 +87,8 @@ class Paint():
         screenshot = ImageGrab.grab(bbox)
         screenshot.save("screenshot.png")
         screenshot.close()
+        self.root.destroy()
+
 
 
 
